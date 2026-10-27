@@ -1,0 +1,7 @@
+CREATE DATABASE IF NOT EXISTS madata_mvp CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+USE madata_mvp;
+CREATE TABLE users (id INT AUTO_INCREMENT PRIMARY KEY,name VARCHAR(120) NOT NULL,email VARCHAR(160) NOT NULL UNIQUE,password_hash VARCHAR(255) NOT NULL,phone VARCHAR(30) NOT NULL,company VARCHAR(120) NOT NULL,created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP);
+CREATE TABLE tickets (id INT AUTO_INCREMENT PRIMARY KEY,user_id INT NOT NULL,title VARCHAR(160) NOT NULL,details TEXT NOT NULL,priority ENUM('baja','media','alta','critica') NOT NULL DEFAULT 'media',status ENUM('abierto','en_proceso','resuelto','cerrado') NOT NULL DEFAULT 'abierto',created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,CONSTRAINT fk_ticket_user FOREIGN KEY(user_id) REFERENCES users(id));
+CREATE TABLE services (id INT AUTO_INCREMENT PRIMARY KEY,name VARCHAR(120) NOT NULL,details TEXT NOT NULL,status VARCHAR(40) NOT NULL DEFAULT 'Activo',valid_until DATE NULL);
+CREATE TABLE user_services (user_id INT NOT NULL,service_id INT NOT NULL,PRIMARY KEY(user_id,service_id),FOREIGN KEY(user_id) REFERENCES users(id),FOREIGN KEY(service_id) REFERENCES services(id));
+INSERT INTO services(name,details,status,valid_until) VALUES ('Monitoreo 24x7','Supervisión simulada de servidores y red','Activo','2027-12-31'),('Mesa de ayuda','Registro y seguimiento de incidencias','Activo','2027-12-31'),('Respaldo administrado','Respaldo académico de información','Activo','2027-06-30');

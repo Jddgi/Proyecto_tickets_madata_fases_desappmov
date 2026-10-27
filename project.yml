@@ -1,0 +1,28 @@
+name: MADATA
+options:
+  bundleIdPrefix: mx.madata.academico
+  deploymentTarget:
+    iOS: "17.0"
+settings:
+  base:
+    SWIFT_VERSION: 5.9
+    DEVELOPMENT_TEAM: ""
+targets:
+  MADATA:
+    type: application
+    platform: iOS
+    sources: [MADATA]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: mx.madata.academico.mvp
+        INFOPLIST_KEY_UILaunchScreen_Generation: true
+        INFOPLIST_KEY_UIApplicationSceneManifest_Generation: true
+        INFOPLIST_KEY_NSAppTransportSecurity_NSAllowsLocalNetworking: true
+    scheme:
+      testTargets: [MADATATests]
+  MADATATests:
+    type: bundle.unit-test
+    platform: iOS
+    sources: [MADATATests]
+    dependencies:
+      - target: MADATA
