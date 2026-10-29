@@ -1,24 +1,44 @@
 import Foundation
 
-enum APIError: LocalizedError {
-    case invalidResponse, server(String)
-    var errorDescription:String? { switch self { case .invalidResponse: "Respuesta inválida del servidor"; case .server(let m): m } }
-}
-
-final class APIClient {
-    static let shared = APIClient(); private init() {}
-    private let decoder: JSONDecoder = { let d=JSONDecoder(); return d }()
-
-    func send<T:Decodable>(_ path:String, method:String="GET", body:[String:Any]?=nil) async throws -> T {
-        guard let url=URL(string:path, relativeTo:AppConfig.apiBaseURL) else { throw APIError.invalidResponse }
-        var request=URLRequest(url:url); request.httpMethod=method; request.timeoutInterval=15
-        request.setValue("application/json", forHTTPHeaderField:"Accept")
-        if let body { request.setValue("application/json", forHTTPHeaderField:"Content-Type"); request.httpBody=try JSONSerialization.data(withJSONObject:body) }
-        let (data,response)=try await URLSession.shared.data(for:request)
-        guard let http=response as? HTTPURLResponse, (200...299).contains(http.statusCode) else {
-            let msg=(try? JSONSerialization.jsonObject(with:data) as? [String:Any])?["message"] as? String ?? "Error del servidor"
-            throw APIError.server(msg)
+class APIClient {
+    static let shared = APIClient()
+    
+    // Cambia esta URL por la dirección de tu servidor o API local/remota
+    private let baseURL = "http://localhost/Proyecto_tickets_madata_fases_desappmov/backend/api"
+    
+    func request<T: Decodable>(endpoint: String, method: String = "GET", body: Encodable? = nil, completion: @escaping (Result<T, Error>) -> Void) {
+        guard let url = URL(string: "\(baseURL)/\(endpoint)") else {
+            completion(.failure(NSError(domain: "InvalidURL", code: -1, userInfo: nil)))
+            return
         }
-        return try decoder.decode(T.self,from:data)
+        
+        var request = URLRequest(url: url)
+        request.httpMethod = method
+        request.setValue("application/json", forHTTPHeaderField: "Content-Type")
+        
+        if let body = body {
+            request.httpBody = try? JSONEncoder().encode(body)
+        }
+        
+        URLSession.shared.dataTask(with: request) { data, response, error in
+            if let error = error {
+                completion(.failure(error))
+                return
+            }
+            
+            guard let data = data else {
+                completion(.failure(NSError(domain: "NoData", code: -2, userInfo: nil)))
+                return
+            }
+            
+            do {
+                let decodedObject = try JSONDecoder().decode(T.self, from: data)
+                DispatchQueue.main.async {
+                    completion(.success(decodedObject))
+                }
+            } catch {
+                completion(.failure(error))
+            }
+        }.resume()
     }
 }
