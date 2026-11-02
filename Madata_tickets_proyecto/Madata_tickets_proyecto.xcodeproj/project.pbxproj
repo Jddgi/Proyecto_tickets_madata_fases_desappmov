@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		659E2CEA3095B517003C877B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 659E2CD43095B515003C877B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 659E2CDB3095B515003C877B;
+			remoteInfo = Madata_tickets_proyecto;
+		};
+		659E2CF43095B517003C877B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 659E2CD43095B515003C877B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 659E2CDB3095B515003C877B;
+			remoteInfo = Madata_tickets_proyecto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		659E2CDC3095B515003C877B /* Madata_tickets_proyecto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Madata_tickets_proyecto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		659E2CE93095B517003C877B /* Madata_tickets_proyectoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Madata_tickets_proyectoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		659E2CF33095B517003C877B /* Madata_tickets_proyectoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Madata_tickets_proyectoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		659E2CDE3095B515003C877B /* Madata_tickets_proyecto */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Madata_tickets_proyecto;
+			sourceTree = "<group>";
+		};
+		659E2CEC3095B517003C877B /* Madata_tickets_proyectoTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Madata_tickets_proyectoTests;
+			sourceTree = "<group>";
+		};
+		659E2CF63095B517003C877B /* Madata_tickets_proyectoUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Madata_tickets_proyectoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		659E2CD93095B515003C877B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		659E2CE63095B517003C877B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		659E2CF03095B517003C877B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		659E2CD33095B515003C877B = {
+			isa = PBXGroup;
+			children = (
+				659E2CDE3095B515003C877B /* Madata_tickets_proyecto */,
+				659E2CEC3095B517003C877B /* Madata_tickets_proyectoTests */,
+				659E2CF63095B517003C877B /* Madata_tickets_proyectoUITests */,
+				659E2CDD3095B515003C877B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		659E2CDD3095B515003C877B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				659E2CDC3095B515003C877B /* Madata_tickets_proyecto.app */,
+				659E2CE93095B517003C877B /* Madata_tickets_proyectoTests.xctest */,
+				659E2CF33095B517003C877B /* Madata_tickets_proyectoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		659E2CDB3095B515003C877B /* Madata_tickets_proyecto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 659E2CFD3095B517003C877B /* Build configuration list for PBXNativeTarget "Madata_tickets_proyecto" */;
+			buildPhases = (
+				659E2CD83095B515003C877B /* Sources */,
+				659E2CD93095B515003C877B /* Frameworks */,
+				659E2CDA3095B515003C877B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				659E2CDE3095B515003C877B /* Madata_tickets_proyecto */,
+			);
+			name = Madata_tickets_proyecto;
+			packageProductDependencies = (
+			);
+			productName = Madata_tickets_proyecto;
+			productReference = 659E2CDC3095B515003C877B /* Madata_tickets_proyecto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		659E2CE83095B517003C877B /* Madata_tickets_proyectoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 659E2D003095B517003C877B /* Build configuration list for PBXNativeTarget "Madata_tickets_proyectoTests" */;
+			buildPhases = (
+				659E2CE53095B517003C877B /* Sources */,
+				659E2CE63095B517003C877B /* Frameworks */,
+				659E2CE73095B517003C877B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				659E2CEB3095B517003C877B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				659E2CEC3095B517003C877B /* Madata_tickets_proyectoTests */,
+			);
+			name = Madata_tickets_proyectoTests;
+			packageProductDependencies = (
+			);
+			productName = Madata_tickets_proyectoTests;
+			productReference = 659E2CE93095B517003C877B /* Madata_tickets_proyectoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		659E2CF23095B517003C877B /* Madata_tickets_proyectoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 659E2D033095B517003C877B /* Build configuration list for PBXNativeTarget "Madata_tickets_proyectoUITests" */;
+			buildPhases = (
+				659E2CEF3095B517003C877B /* Sources */,
+				659E2CF03095B517003C877B /* Frameworks */,
+				659E2CF13095B517003C877B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				659E2CF53095B517003C877B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				659E2CF63095B517003C877B /* Madata_tickets_proyectoUITests */,
+			);
+			name = Madata_tickets_proyectoUITests;
+			packageProductDependencies = (
+			);
+			productName = Madata_tickets_proyectoUITests;
+			productReference = 659E2CF33095B517003C877B /* Madata_tickets_proyectoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		659E2CD43095B515003C877B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					659E2CDB3095B515003C877B = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					659E2CE83095B517003C877B = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 659E2CDB3095B515003C877B;
+					};
+					659E2CF23095B517003C877B = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 659E2CDB3095B515003C877B;
+					};
+				};
+			};
+			buildConfigurationList = 659E2CD73095B515003C877B /* Build configuration list for PBXProject "Madata_tickets_proyecto" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 659E2CD33095B515003C877B;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 659E2CDD3095B515003C877B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				659E2CDB3095B515003C877B /* Madata_tickets_proyecto */,
+				659E2CE83095B517003C877B /* Madata_tickets_proyectoTests */,
+				659E2CF23095B517003C877B /* Madata_tickets_proyectoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		659E2CDA3095B515003C877B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		659E2CE73095B517003C877B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		659E2CF13095B517003C877B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		659E2CD83095B515003C877B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		659E2CE53095B517003C877B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		659E2CEF3095B517003C877B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		659E2CEB3095B517003C877B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 659E2CDB3095B515003C877B /* Madata_tickets_proyecto */;
+			targetProxy = 659E2CEA3095B517003C877B /* PBXContainerItemProxy */;
+		};
+		659E2CF53095B517003C877B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 659E2CDB3095B515003C877B /* Madata_tickets_proyecto */;
+			targetProxy = 659E2CF43095B517003C877B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		659E2CFB3095B517003C877B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		659E2CFC3095B517003C877B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		659E2CFE3095B517003C877B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Juandd200511-gmail.com.Madata-tickets-proyecto";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		659E2CFF3095B517003C877B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Juandd200511-gmail.com.Madata-tickets-proyecto";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		659E2D013095B517003C877B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Juandd200511-gmail.com.Madata-tickets-proyectoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Madata_tickets_proyecto.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Madata_tickets_proyecto";
+			};
+			name = Debug;
+		};
+		659E2D023095B517003C877B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Juandd200511-gmail.com.Madata-tickets-proyectoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Madata_tickets_proyecto.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Madata_tickets_proyecto";
+			};
+			name = Release;
+		};
+		659E2D043095B517003C877B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Juandd200511-gmail.com.Madata-tickets-proyectoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Madata_tickets_proyecto;
+			};
+			name = Debug;
+		};
+		659E2D053095B517003C877B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Juandd200511-gmail.com.Madata-tickets-proyectoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Madata_tickets_proyecto;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		659E2CD73095B515003C877B /* Build configuration list for PBXProject "Madata_tickets_proyecto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				659E2CFB3095B517003C877B /* Debug */,
+				659E2CFC3095B517003C877B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		659E2CFD3095B517003C877B /* Build configuration list for PBXNativeTarget "Madata_tickets_proyecto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				659E2CFE3095B517003C877B /* Debug */,
+				659E2CFF3095B517003C877B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		659E2D003095B517003C877B /* Build configuration list for PBXNativeTarget "Madata_tickets_proyectoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				659E2D013095B517003C877B /* Debug */,
+				659E2D023095B517003C877B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		659E2D033095B517003C877B /* Build configuration list for PBXNativeTarget "Madata_tickets_proyectoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				659E2D043095B517003C877B /* Debug */,
+				659E2D053095B517003C877B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 659E2CD43095B515003C877B /* Project object */;
+}
